@@ -18,7 +18,7 @@
             color: var(--gold); overflow: hidden;
         }
         .app-container {
-            width: 92vw; max-width: 380px; height: 88vh; max-height: 680px;
+            width: 92vw; max-width: 380px; height: 88vh; max-height: 650px;
             background: radial-gradient(circle at center, #062c1e 0%, #000 100%);
             border: 4px solid var(--gold); border-radius: 50px;
             display: flex; flex-direction: column; padding: 15px;
@@ -38,7 +38,26 @@
         .premium-btn:active { background: var(--gold); color: #000; }
 
         .flashcard {
-            flex-grow: 1; margin: 5px 0;
+          /* flex-grow: 1; margin: 5px 0; */
+height: 220px;    /* HIER: Feste Höhe für die Karte definieren */
+    margin: 10px auto;
+    width: 90%;       /* Damit sie schön mittig sitzt */
+    background: linear-gradient(145deg, #0a1f18, #000);
+    border: 1.5px solid var(--gold); 
+    border-radius: 35px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    position: relative; 
+    padding: 15px; 
+    cursor: pointer;
+}
+
+
+
+            
             background: linear-gradient(145deg, #0a1f18, #000);
             border: 1.5px solid var(--gold); border-radius: 35px;
             display: flex; flex-direction: column; justify-content: center; align-items: center;
@@ -268,4 +287,4 @@
 
 </body>
 </html>
-            {
+            
